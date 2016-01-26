@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Output = System.Console;
 
 namespace Lab_assignment_1_TIc_Tac_Toe {
-
+   //Main function calls tic tac toe game logic
    class Program {
       static void Main (string[] args) {
          TicTacToe game = new TicTacToe();
@@ -15,7 +15,7 @@ namespace Lab_assignment_1_TIc_Tac_Toe {
          game.Play();
       }
    }
-
+   //Tic tac toe game class
    public class TicTacToe {
       private const int BOARDSIZE = 3;
       private int[,] board;
